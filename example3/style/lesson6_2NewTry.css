@@ -1,0 +1,98 @@
+#commentContainer {
+	width: 100%;
+	padding: 50px 0 95px 0;
+	background: url(../img/ep_naturalblack.png);
+	font-family: Poppins, sans-serif;
+}
+
+#commentContainer   .wrapper {
+	width: 1187px;
+	margin: 0 auto;
+}
+	
+#commentContainer   #titleText {
+	text-align: center;
+	font-size: 1.5em;
+	line-height: 1.5em;
+	margin-bottom: 70px;
+
+}
+#commentContainer  #titleText h2 {
+	font-weight: bold;
+	color: #3170A8;
+	text-transform: uppercase;
+	display: block;
+	margin: 30px auto;
+}
+
+#commentContainer   #titleText h2 span {
+	 color: #EE8129;
+	 font-weight: normal;
+}
+
+#commentContainer   .wrapper .commentBlock1,
+ #commentContainer   .wrapper .commentBlock2 {
+	display: inline-block;
+}
+
+#commentContainer   .wrapper .commentBlock2 {
+	margin-left: 30px;
+}
+
+#commentContainer   .wrapper .commentBlock1 #comment1,
+ #commentContainer   .wrapper .commentBlock2 #comment2 {
+
+	width: 400px;
+	min-width: 200px;
+	color: #848484;
+	margin-left: 30px;
+	font-size: 11px;
+	display: inline-block;
+	position: relative;
+	background: #fff;
+	padding: 0 20px 0 20px;
+}
+#commentContainer   .wrapper .commentBlock1 #comment1::before,
+#commentContainer   .wrapper .commentBlock2 #comment2::before {
+	content: "";
+	width:0;
+	height: 0;
+	border: 12px solid transparent;
+    border-right: 18px solid #fff;
+    left: -30px;
+    top: 28%;
+    position: absolute;
+}
+#commentContainer   .wrapper .commentBlock1 img, 
+#commentContainer   .wrapper .commentBlock2 img {
+	vertical-align: top;
+
+}
+
+#commentContainer   .wrapper .commentBlock1 #comment1 .customerProfile1, 
+#commentContainer   .wrapper .commentBlock2 #comment2 .customerProfile2 {
+	height: 30px;
+	padding: 0.5em;
+	border-bottom: 2px dotted #848484;
+	line-height: 30px;
+}
+
+.customerName1, .customerName2, .customer1, .customer2 {
+	position: relative;
+	color: #3170A8;
+	font-style: italic;
+}
+.customerName1, .customerName2 {
+	left: -8px;
+}
+
+.customer1 {
+	right: -209px;
+}
+
+.customer2 {
+	right:-225px;
+}
+.commentText1, .commentText2 {
+	padding: 10px 5px 10px 0;
+}

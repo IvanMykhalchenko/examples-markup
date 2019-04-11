@@ -1,0 +1,434 @@
+body {
+	margin:0;
+	padding: 0;
+	font-family: Arial, sans-serif;
+  }
+  /*----------------------Header---------------------------*/
+  
+  header  {
+	height: 100px;
+	
+  }
+  header h1 {
+	display: inline;
+	position: relative;
+	left: 290px;
+	font-family: Poppins, sans-serif;
+	bottom: -18px;
+  }
+
+  header h1 .company {
+	color: #EE8C43;
+
+
+  }
+
+  header h1 .name {
+	color: #3070A8;
+	font-weight: bold;
+
+  }
+
+  ul.menu {
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	display: inline-block;
+	position: relative;
+	left: 361px;
+	top: 26px;
+  }
+  ul.menu li {
+	width: 70px;
+	height: 70px;
+	display: inline-block;
+	margin-left: 20px;
+	text-align: center;
+	line-height: 70px;
+	text-transform: uppercase;
+	font-family: Poppins, sans-serif;
+	font-size: 0.7em;
+	
+  }
+  ul.menu li a{
+	text-decoration: none;
+	display: block;
+	color: #989898;
+  }
+  ul.menu li:first-child {
+	margin-left: 0;
+  }
+
+  /*--------------------------------Hover a-------------------------*/
+
+  ul.menu li a:hover {
+	color: #3070A8;
+	border-bottom: 4px solid #3070A8;
+}
+
+
+
+
+
+
+  /*************************Div after Header**********************/
+  #body-container1 {
+	padding: 146px 0 80px 0;
+	  width: 100%;
+	  background-image: url(../img/ju-on-90387-unsplash.jpg);
+	  background-size: 100%;
+	  text-shadow: 1px 2px 1px #fff;
+	  
+  }
+  #body-container1 .text1 {
+	  width: 100%;
+	  padding: 0;
+	  text-align: center;
+	  font-family: Poppins, sans-serif;
+	  color: #fff;
+	  font-size: 20px;
+  }
+   #body-container1 .text2 {
+	
+	width: 100%;
+	padding: 0;
+	text-align: center;
+	color: #fff;
+	font-size: 40px;
+	font-family: Poppins, sans-serif;
+	font-weight: bold;
+	text-transform: uppercase;
+}
+#body-container1 .text3 {
+	width: 100%;
+	padding: 0;
+	text-align: center;
+	color: #fff;
+	font-size: 40px;
+	font-weight: bold;
+	font-family: Poppins, sans-serif;
+	margin-bottom: 20px;
+	text-transform: uppercase;
+}
+#body-container1 .text4 {
+	position: relative;
+	width: 510px;
+	padding: 0;
+	text-align: center;
+	color: #fff;
+	font-family: Poppins, sans-serif;
+	font-style: italic;
+	font-size: 13px;
+	margin: auto;
+}
+
+#body-container1 button {
+	color: #fff;
+	background: transparent;
+	border: 1px solid #fff;
+	font-family: Poppins, sans-serif;
+	display: block;
+    width: 193px;
+    height: 46px;
+    text-align: center;
+    margin: 37px auto;
+	text-transform: uppercase;
+	transition: border 0.1s linear, text-shadow 0.1s linear;
+}
+/*--------------------------------Hover Button-------------------------*/
+
+#body-container1 button:hover {
+	cursor: pointer;
+	border: 3px solid #fff;
+	text-shadow: 1px 2px 1px #fff;
+}
+
+
+
+
+
+/************************Body-container2**************************/
+#body-container2 {
+	width: 100%;
+	font-family: Poppins, sans-serif;
+	background: #fff;
+	
+}
+
+#body-container2 h2 {
+	padding: 45px 0 0 0;
+	margin: 0 14%;
+	color: #41525C;
+	margin-bottom: 62px;
+	text-transform: uppercase;
+	font-size: 33px;
+}
+
+
+.protect, .alert, .detect{
+	display: inline-block;
+	width: 29%;
+}
+.protect {
+	margin-left: 3%;
+}
+.alert {
+ margin: 0 3%;
+}
+.detect {
+	margin-right: 2%;
+}
+#body-container2 .button1,
+#body-container2 .button2, 
+#body-container2 .button3 {
+	width: 170px;
+	height: 170px;
+	border-radius: 50%;
+	background-color: #2E6DA3;
+	margin: 0 auto;
+	transition: box-shadow 0.1s linear,
+	background 0.1s linear;
+	
+}
+#body-container2 .wrapper {
+	width: 100%;
+}
+#body-container2 .protect .button1{
+	background-image: url(../img/padlock-3-64.ico);
+	background-repeat: no-repeat;
+	background-position: center;
+	
+}
+
+#body-container2 .alert .button2{
+	background-image: url(../img/lightning-bolt-64.ico);
+	background-repeat: no-repeat;
+	background-position: center;
+	
+}
+#body-container2 .detect .button3{
+	background-image: url(../img/mobile-phone-8-64.ico);
+	background-repeat: no-repeat;
+	background-position: center;
+	
+}
+#body-container2 .protect .button-name1, 
+#body-container2 .alert .button-name2, 
+#body-container2 .detect .button-name3 {
+	text-transform: uppercase;
+	text-align: center;
+	font-size: 30px;
+	color: #2E6DA3;
+	margin: 15px 0;
+}
+
+#body-container2 .protect .text1, 
+#body-container2 .alert .text2, 
+#body-container2 .detect .text3 {
+	width: 100%;
+	text-align: center;
+	color: #989898;
+}
+/********************Hover Buttons************************/
+#body-container2 .button1:hover,
+#body-container2 .button2:hover, 
+#body-container2 .button3:hover {
+	box-shadow: inset 0 0 0px 6px #19588E;
+	cursor: pointer;
+}
+#body-container2 .button1:hover {
+	background-image: url(../img/padlock-3-64yellow.ico);
+}
+#body-container2 .button2:hover {
+	background-image: url(../img/lightning-bolt-64yellow.ico);
+}
+#body-container2 .button3:hover {
+	background-image: url(../img/mobile-phone-8-64yellow.ico);
+}
+
+
+
+
+/*****************************BeforeFooter*****************/
+.beforeFooter {
+	width: 100%;
+}
+.contact {
+	width: 50%;
+	display: inline-block;
+	font-family: Poppins, sans-serif;
+	font-size: 18px;
+	line-height: 2.2em;
+    position: relative;
+    top: -40px;
+	left: -12px;
+	
+}
+
+.map {
+	width: 49%;
+	display: inline-block;
+	
+
+}
+
+.contact .containerContact {
+	margin: -59px auto;
+	width: 30%;
+	position: relative;
+}
+.contact .containerContact .textMap {
+	position: relative;
+	margin-top: 20px;
+}
+.contact .containerContact .textPhone{
+	position: relative;
+	margin-top: 20px;
+
+} 
+.contact .containerContact .textMail{
+	position: relative;
+	margin-top: 20px;
+
+}
+.contact .containerContact .textMap::before {
+	content: "";
+	width: 32px;
+	height: 32px;
+	position: absolute;
+	background-image: url(../img/map-markerBlue.png);
+	left: -47px;
+	transition: background-image 0.1s linear;
+}
+
+.contact .containerContact .textPhone::before {
+	content: "";
+	width: 32px;
+	height: 32px;
+	position: absolute;
+	background-image: url(../img/phone-42Blue.png);
+	left: -51px;
+	transition: background-image 0.1s linear;
+}
+
+.contact .containerContact .textMail::before {
+	content: "";
+	width: 32px;
+	height: 32px;
+	position: absolute;
+	background-image: url(../img/message-24Blue.png);
+	left: -50px;
+    top: 1px;
+	transition: background-image 0.1s linear;
+}
+/**********************Hover*************************/
+.contact .containerContact .textMap:hover::before {
+	cursor: pointer;
+	background-image: url(../img/map-marker-2-32Fiolet.png);
+	
+	
+}
+
+.contact .containerContact .textPhone:hover::before {
+	cursor: pointer;
+	background-image: url(../img/phone-42-32Fiolet.png);
+	
+}
+
+.contact .containerContact .textMail:hover::before {
+	cursor: pointer;
+	background-image: url(../img/message-32Fiolet.png);
+	
+}
+
+
+
+
+
+
+
+
+.buttonSocial {
+	width: 40%;
+	margin: 0 28%;
+	padding-top: 27px;
+	position: relative;
+    top: 44px;
+}
+.FB, .TW, .IN {
+	width: 70px;
+	height: 70px;
+	border-radius: 50%;
+	display: inline-block;
+	margin: 10px 0;
+	box-sizing: border-box;
+	transition: background-color 0.1s linear,
+	background-image 0.1s linear, 
+	border 0.1s linear;
+
+}
+.FB{
+	background-color: #4967A9;
+	background-image: url(../img/facebook-24.png);
+	background-position: center;
+	background-repeat: no-repeat;
+}
+.TW {
+	background-color: #1AB2E8;
+	background-image: url(../img/twitter-24.png);
+	background-position: center;
+	background-repeat: no-repeat;
+	margin-left: 8%;
+	
+}
+.IN {
+	background-color: #007AB9;
+	margin-left: 8%;
+	background-image: url(../img/instagram-24.png);
+	background-position: center;
+	background-repeat: no-repeat;
+}
+
+
+
+
+/*********************Hover***************************/
+
+.FB:hover {
+	cursor: pointer;
+	background-color: #B986A5;
+	background-image: url(../img/facebook-48Fiolet.png);
+	border: 2px solid #4967A9;
+}
+.TW:hover {
+	cursor: pointer;
+	background-color: #B986A5;
+	background-image: url(../img/twitter-48Violet.png);
+	border: 2px solid #1AB2E8;
+
+}
+.IN:hover {
+	cursor: pointer;
+	background-color: #B986A5;
+	background-image: url(../img/instagram-48Violet.png);
+	border: 2px solid #007AB9;
+}
+
+/******************************	FOOTER********************/
+
+footer {
+	padding: 40px 0 50px 0;
+	width: 100%;
+	text-align: center;
+	font-family: Poppins, sans-serif;
+	background-color: #3070A8;
+	color: #fff;
+}
+
+footer .BoldWhite {
+	font-weight: bold;
+} 
+footer .Black {
+	color: #000;
+	
+}

@@ -1,0 +1,436 @@
+
+#main-container {
+	width: 100%;
+	padding: 30px 0 65px 0;
+	background: url(../img/chalkboard.jpg)
+}
+#main-container .wrapper {
+	width: 989px;
+	margin: 0 auto;
+}
+#main-container #container {
+	background: #EE8129;
+	padding: 0;
+	width: 300px;
+	font-family: Arial, sans-serif;
+	position: relative;
+	border-radius: 5px;
+	padding-bottom: 4px;
+	z-index: 2;
+	opacity: 0.95;
+	transition: transform 0.1s linear 0.05s;
+
+}
+
+#main-container #container #container2 {
+	background: #fff;
+	position: relative;
+	top:0;
+	width: 292px;
+	left: 4px;
+	padding-top: 20px;
+}
+
+#main-container #container #best_value, #main-container #container #container2 #iconic,
+#main-container #container #container2 #numb, #main-container #container #container2 button {
+	text-transform: uppercase;
+}
+#main-container #container #best_value{
+	color: #fff;
+	font-size: 25px;
+	font-weight: bolder;
+	line-height: 64px;
+	text-align: center;
+}
+
+#main-container #container #container2 #iconic {
+	font-size: 23px;
+	line-height: 23px;
+	text-align: center;
+	color: #3F4042;
+	margin-bottom: 9px;
+
+}
+#main-container #container #container2 #numb {
+	font-size: 75px;
+	color: #35495A;
+	text-align: center;
+}
+
+#main-container #container #container2 #numb::before {
+	content: "$";
+	font-size: 21px;
+	color: #35495A;
+	position: relative;
+	bottom: 40px;
+
+}
+
+#main-container #container #container2 #numb::after {
+	content: "Monthly";
+	font-size: 21px;
+	color: #35495A;
+	text-transform: capitalize;
+	position: relative;
+	top: 11px;
+}
+#main-container #container #container2 #list ul {
+	list-style: none;
+	text-align: left;
+	margin: 0;
+	padding: 0;
+	width: 252px;
+    position: relative;
+	left: 20px;
+	margin-top: 25px;
+	
+}
+
+#main-container #container #container2 #list ul li {
+	text-align: left;
+	margin: 0;
+	padding: 0;
+	padding-left: 36px;
+	font-size: 16px;
+	color: #888C94;
+	border-bottom: 1px solid #fff;
+	height: 34px;
+	line-height: 34px;
+}
+
+#main-container #container #container2 #list ul li:nth-child(even) {
+	background: #F5F5F6;
+}
+
+#main-container #container #container2 #list ul li:nth-child(odd) {
+	background: #E8F2FB;
+}
+
+#main-container #container #container2 #list ul li::before {
+	content: "";
+	background-image: url(../img/tick.png);
+	background-repeat: no-repeat;
+	padding: 3px 16px;
+}
+
+#main-container #container #container2 button {
+	width: 248px;
+	height: 40px;
+	line-height: 40px;
+	text-align: center;
+	margin-top: 20px;
+	margin-bottom: 28px;
+	position: relative;
+	left: 22px;
+	background: #EE8129;
+	color: #fff;
+	border-top: none;
+	border-left: none;
+	border-right: none;
+	border-bottom: 3px solid #B3560B;
+	border-radius: 5px;
+}
+#main-container #container #container2 button:hover {
+	cursor: pointer;
+	border-bottom: none;
+}
+
+/*--------------Blue------------*/
+.title-text {
+	color: #41525C;
+	text-transform: uppercase;
+	font: 30px Arial, sans-serif;
+	line-height: 30px;
+	text-align: center;
+	display: block;
+	margin: 30px auto;
+}
+#containerBlue, #container, #containerGreen {
+	display: inline-block;
+	margin-left:20px;
+}
+#containerBlue {
+	position: relative;
+	left: 25px;
+	width:300px;
+	text-align: center;
+	text-transform: uppercase;
+	background: #37C2D3;
+	border-radius: 5px;
+	transition: transform 0.1s linear 0.05s;
+	padding-bottom: 4px;
+	opacity: 0.95;
+
+}
+
+#standart {
+	width: 300px;
+	line-height: 64px;
+	font-size: 25px;
+	position: relative;
+	font-weight: bolder;
+	font-family: Arial, sans-serif;
+	color: #fff;
+
+}
+#containerBlue2 {
+	background: #fff;
+    position: relative;
+    top: 0;
+    width: 292px;
+    left: 4px;
+	padding-top: 20px;
+	
+}
+
+#containerBlue2 #iconic {
+    font-size: 23px;
+    line-height: 23px;
+    text-align: center;
+    color: #3F4042;
+    margin-bottom: 9px;
+    font-family: Arial, sans-serif;
+}
+#containerBlue2 #numb {
+	font-size: 75px;
+    color: #35495A;
+	text-align: center;
+	font-family: Arial, sans-serif;
+}
+
+#containerBlue2 #numb::before {
+	content: "$";
+    font-size: 21px;
+    color: #35495A;
+    position: relative;
+    bottom: 40px;
+
+}
+
+#containerBlue2 #numb::after {
+	content: "Monthly";
+    font-size: 21px;
+    color: #35495A;
+    text-transform: capitalize;
+    position: relative;
+    top: 11px;
+
+}
+
+#containerBlue2 #listBlue {
+	list-style: none;
+    text-align: left;
+    margin: 0;
+    padding: 0;
+    width: 252px;
+    position: relative;
+    left: 20px;
+    margin-top: 25px;
+}
+
+#containerBlue2 #listBlue li {
+	text-align: left;
+    margin: 0;
+    padding: 0;
+    padding-left: 36px;
+    font-size: 15px;
+    color: #888C94;
+    border-bottom: 1px solid #fff;
+    height: 34px;
+    line-height: 34px;
+}
+
+#containerBlue2 #listBlue li::before {
+	content: "";
+    background-image: url(../img/tick.png);
+    background-repeat: no-repeat;
+    padding: 3px 16px;
+
+}
+#containerBlue2 #listBlue li:nth-child(even){
+	background: #F5F5F6;
+}
+
+
+#containerBlue2 #listBlue li:nth-child(odd) {
+	background: #E8F2FB;
+
+}
+
+button.butBlue {
+	background: #37C2D3;
+	width: 248px;
+    height: 40px;
+    line-height: 40px;
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 28px;
+    position: relative;
+    left: 0;
+    color: #fff;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    border-bottom: 3px solid #16436A;
+	border-radius: 5px;
+	text-transform: uppercase;
+}
+
+button.butBlue:hover {
+	border-bottom: none;
+}
+/*--------------Green----------*/
+
+#containerGreen {
+	position: relative;
+	left: -26px;
+	width:300px;
+	text-align: center;
+	text-transform: uppercase;
+	background: #1CB79A;
+	border-radius: 5px;
+	transition: transform 0.1s linear 0.05s;
+	padding-bottom: 4px;
+	opacity: 0.95;
+
+}
+
+#ultimate {
+	width: 300px;
+	line-height: 64px;
+	font-size: 25px;
+	position: relative;
+	font-weight: bolder;
+	font-family: Arial, sans-serif;
+	color: #fff;
+
+}
+#containerGreen2 {
+	background: #fff;
+    position: relative;
+    top: 0;
+    width: 292px;
+    left: 4px;
+	padding-top: 20px;
+	
+}
+
+#containerGreen2 #iconic {
+    font-size: 23px;
+    line-height: 23px;
+    text-align: center;
+    color: #3F4042;
+    margin-bottom: 9px;
+    font-family: Arial, sans-serif;
+}
+#containerGreen2 #numb {
+	font-size: 75px;
+    color: #35495A;
+	text-align: center;
+	font-family: Arial, sans-serif;
+}
+
+#containerGreen2 #numb::before {
+	content: "$";
+    font-size: 21px;
+    color: #35495A;
+    position: relative;
+    bottom: 40px;
+
+}
+
+#containerGreen2 #numb::after {
+	content: "Monthly";
+    font-size: 21px;
+    color: #35495A;
+    text-transform: capitalize;
+    position: relative;
+    top: 11px;
+
+}
+
+#containerGreen2 #listGreen {
+	list-style: none;
+    text-align: left;
+    margin: 0;
+    padding: 0;
+    width: 252px;
+    position: relative;
+    left: 20px;
+    margin-top: 25px;
+}
+
+#containerGreen2 #listGreen li {
+	text-align: left;
+    margin: 0;
+    padding: 0;
+    padding-left: 36px;
+    font-size: 13px;
+    color: #888C94;
+    border-bottom: 1px solid #fff;
+    height: 34px;
+    line-height: 34px;
+}
+
+#containerGreen2 #listGreen li::before {
+	content: "";
+    background-image: url(../img/tick.png);
+    background-repeat: no-repeat;
+    padding: 3px 16px;
+
+}
+#containerGreen2 #listGreen li:nth-child(even){
+	background: #F5F5F6;
+}
+
+
+#containerGreen2 #listGreen li:nth-child(odd) {
+	background: #E8F2FB;
+
+}
+
+button.butGreen {
+	background: #1CB79A;
+	width: 248px;
+    height: 40px;
+    line-height: 40px;
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 28px;
+    position: relative;
+    left: 0;
+    color: #fff;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    border-bottom: 3px solid #008669;
+	border-radius: 5px;
+	text-transform: uppercase;
+}
+
+button.butGreen:hover {
+	border-bottom: none;
+}
+
+/*--------------------------------------Hover and Active---------------------------*/
+
+#containerBlue:hover, #main-container #container:hover, #containerGreen:hover {
+	opacity: 1;
+	z-index: 3;
+}
+#containerBlue:active, #main-container #container:active, #containerGreen:active {
+	opacity: 1;
+}
+#containerBlue:active, #main-container #container:active, #containerGreen:active  {
+	opacity: 1;
+}
+#main-container #container:hover {
+	
+	transform: scaleY(1.05);
+}
+#main-container #containerBlue:hover {
+	transform: scaleY(1.05);
+}
+#main-container #containerGreen:hover {
+	transform: scaleY(1.05);
+}
